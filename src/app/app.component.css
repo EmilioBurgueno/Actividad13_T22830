@@ -1,0 +1,29 @@
+.nav-wrapper{
+  background-color:#f6d251;
+}
+.title {
+  padding-right: 450px;
+}
+.input-field label {
+  color: #000000;
+}
+.input-field input[type=text]:focus + label {
+  color: #f6d251;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #f6d251;
+  box-shadow: 0 1px 0 0 #f6d251;
+}
+
+.row {
+  margin: auto;
+}
+
+.btn-large {
+  background-color: #f6d251;
+}
+
+.collapsible-body {
+  text-align: justify;
+}
